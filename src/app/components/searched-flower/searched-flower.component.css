@@ -1,0 +1,38 @@
+.flowerImages {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  /* margin-top: 50px; */
+  padding: 75px;
+}
+.flowerImages img {
+  height: 250px;
+  width: 250px;
+}
+.flowerImages div {
+  padding: 20px;
+}
+.search_control {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search_control input {
+  margin-right: 50px;
+  font-size: 20px;
+  outline: none;
+  padding: 10px;
+  height: 100%;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.search_control button {
+  padding: 12px 25px;
+  font-size: 18px;
+  background-color: lightseagreen;
+  border: none;
+  border-radius: 10px;
+}

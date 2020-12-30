@@ -1,0 +1,36 @@
+#search {
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+button {
+  background-color: #3498db;
+  padding: 10px 40px;
+  border-radius: 20px;
+  border: 1px solid #eee;
+  outline: none;
+  margin: 0px 50px;
+}
+
+.nav {
+  padding: 30px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+router-outlet {
+  margin-top: 50px;
+}
+
+.nav_links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

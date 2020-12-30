@@ -1,0 +1,15 @@
+<div class="search_control">
+  <input
+    type="text"
+    name="flowerName"
+    id=""
+    [(ngModel)]="fs.flName"
+    autocomplete="off"
+  />
+  <button (click)="searchFlower()">Search</button>
+</div>
+<div class="flowerImages">
+  <div *ngFor="let flower of flowerResults">
+    <img [src]="flower" alt="" />
+  </div>
+</div>
